@@ -28,4 +28,6 @@ printf("O seu salário bruto é de: R$ %.2f",Payment_B);
 printf("\nO valor descontado de impostos é: R$ %.2f",Discount);
 printf("\nO seu salário líquido é de: R$ %.2f",Payment_L);
 
+return 0;
+
 }

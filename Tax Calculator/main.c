@@ -13,10 +13,10 @@ float Payment_B,Payment_L,Discount;
 //Frontend Questions
 
 printf("Digite o número de dias trabalhados: ");
-scanf("\n%d",&Days);
+scanf("%d",&Days);
 
 printf("Digite quantas horas você trabalhou por dia: ");
-scanf("\n%d",&Hours);
+scanf("%d",&Hours);
 
 //Backend Maths
 

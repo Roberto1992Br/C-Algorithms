@@ -7,8 +7,8 @@ int main(void)
 {
     setlocale(LC_ALL,"");
     
-int Days;
-float Payment_B,Payment_L,Discount,Hours;
+int Days,Hours;
+float Payment_B,Payment_L,Discount;
 
 //Frontend Questions
 
@@ -16,7 +16,7 @@ printf("Digite o número de dias trabalhados: ");
 scanf("\n%d",&Days);
 
 printf("Digite quantas horas você trabalhou por dia: ");
-scanf("\n%f",&Hours);
+scanf("\n%d",&Hours);
 
 //Backend Maths
 
@@ -24,8 +24,8 @@ Payment_B = (Hours*Days);
 Discount = (Payment_B*0.11);
 Payment_L = (Payment_B-Discount);
 
-printf("O seu salário bruto é de: R$ %.2F",Payment_B);
-printf("\nO valor descontado de impostos é: R$ %.2F",Discount);
-printf("\nO seu salário líquido é de: R$ %.2F",Payment_L);
+printf("O seu salário bruto é de: R$ %.2f",Payment_B);
+printf("\nO valor descontado de impostos é: R$ %.2f",Discount);
+printf("\nO seu salário líquido é de: R$ %.2f",Payment_L);
 
 }
